@@ -64,6 +64,18 @@ main{
 
 #grey {
     color: gray;
+    
+}
+
+article > ul {
+    list-style: disc;
+}
+
+.tag {
+    background-color: #D0D0D0;
+    border: solid gray;
+    border-radius: 3px;
+    color: black;
 }
 
 
