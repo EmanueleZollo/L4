@@ -8,7 +8,7 @@ body{
 }
 
 
-div {
+#bckgpic {
     background: url(./img/sfondo.png);
     text-align: center;
     margin: 0;
@@ -16,20 +16,34 @@ div {
 }
 
 p{
-    margin: 10px;
-    padding: 10px;
+    margin: 5px 20px;
+    padding: 5px 20px ;
     line-height: 1.5rem;
+    text-align: left;
 }
 
-a{
-    color: #FB1CD5;
+a:visited{
+    color: #039DC2
 }
+
 
 h1{
     font-size: xx-large;
     font-weight: 500;
     padding: 20px 15px;
     line-height: 3rem;
+    letter-spacing: 0,2px;
+}
+
+h3{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20 px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 
@@ -37,8 +51,8 @@ span {
     color: #AA2072;
 }
  ol {
-    margin: 10px;
-    padding: 30px;
+    margin: 10px 25px;
+    padding: 10px 25px;
     text-align: start;
     line-height: 1.5rem;
 }
@@ -47,8 +61,8 @@ span {
 header {
     width: 450px;
     min-height: 200px;
-    margin: 20px auto ;
-    padding: 2px;
+    margin: 20px auto;
+    padding: 8px;
     background-image: linear-gradient(to bottom,#009AC1,#006A88);
     color: white;
     box-shadow: 1px 1px 2px #006A88;
@@ -56,9 +70,10 @@ header {
 
 header p, ul {
     margin: 10px;
-    padding: 15px;
+    padding: 25px 10px;
     text-align: center;
     list-style: none;
+    font-size: x-large;
     line-height: 1.5rem;
 }
 
@@ -82,9 +97,10 @@ main{
 
 article > ul {
     list-style: disc;
-    margin: 10px;
-    padding: 15px;
+    margin: 10px 25px;
+    padding: 10px 25px;
     text-align: start;
+    font-size: medium;
     line-height: 1.5rem;
 }
 
@@ -99,9 +115,10 @@ article > ul {
 /* TABELLE */
 
 table{
-    border: solid;
+    width: 300px;
+    border-bottom: solid #3468C7;
     text-align: center;
-    margin: 0 25%;
+    margin: 0 15%;
 }
 
 caption{
@@ -111,17 +128,68 @@ caption{
 th{
     background-color: #3468C7;
     padding: 10px;
+    color: white;
 }
 
 td{
     padding: 10px;
 }
 
+tr:nth-child(even) {
+    background-color: #EFEFEF;
+}
+
+article a:link {
+    color: #039DC2;
+}
+
+#radius {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 /* FORM */
+
+form {
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    border-bottom: dashed;
+}
+
+button {
+    background-color: #3466D1;
+    color: white;
+}
+
+#news {
+    min-height: 200px;
+    width: 400px;
+    background-color: #DFE5E6;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
 
 /* ELEMENTI NELL' ASIDE */
 .lilbox {
+    width: 400px;
+    background-color: #DFE5E6;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+.calendar{
+    text-align: right;
 }
 
 /* FOOTER */
@@ -133,6 +201,12 @@ footer {
     background-color: #005566;
     color: white;
     box-shadow: 1px 1px 2px #005566;
+}
+
+footer p {
     text-align: center;
 }
 
+footer a:link{
+    color: #FB1CD5;
+}

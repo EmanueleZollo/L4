@@ -10,7 +10,7 @@
     <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
 </head>
 <body>
-    <div>
+    <div id="bckgpic">
         <header>
             <img src="./assets/css/img/logo.svg" alt="Logo EPICODE">
             <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
@@ -86,24 +86,35 @@
                 </table>
 
                 <p>Un test di validazione potrà essere fatto tramite il  <a href="https://docs.google.com/spreadsheets/d/1wPxttj-Q9-9vYLQXit9JxPTk5KIbNGLPz3O8fBtHreg/edit#gid=1937960465">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
-                <iframe src="https://www.youtube.com/embed/kjFC2GAw4Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="radius" src="https://www.youtube.com/embed/kjFC2GAw4Lo" width="400px" height="300px" title="YouTube video player" frameborder="0"  allow="accelerometer; ; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </article>
-            <hr>
-            <h4>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newletter:</h4>
-            <form>
-                <label for="your-email">Inserisci l'email</label>
-                <input type="email" id="your-email" placeholder="Scrivi qui la tua email">
-                <br>
-                <label for="sign-in">Iscriviti!</label>
-                <button type="submit" id="sign-in">Invio</button>
-            </form>
+            <div id="news">
+                <h3>NOVIT&#192;</h3>
+                <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newletter:</p>
+                <form>
+                    <input type="email" id="your-email" placeholder="Inserisci l'email">
+                    <button type="submit" id="sign-in">Iscriviti!</button>
+                </form>
+            </div>
         
             
             <aside>
-                <h3>Articoli correlati</h3>
-                <p> Validare il codice HTML <br> <i class="fas fa-tag"></i>Categoria: develop <br> <i class="fas fa-calendar-alt"></i>Data 18-09-2020</p>
-                <p>Correggere la sintassi<br> <i class="fas fa-tag"></i>Categoria: develop <br> <i class="fas fa-calendar-alt"></i>Data 16-09-2020</p>
-                <p>Meno kb nella pagina <br> <i class="fas fa-tag"></i> Categoria: ottimizzazione <br> <i class="fas fa-calendar-alt"></i>Data 30-09-2020</p>
+                <h3>ARTICOLI CORRELATI</h3>
+
+                <div class="lilbox">
+                    <p> <a href="#">Validare il codice HTML</a> <br> <i class="fas fa-tag"></i>Categoria: develop </p>
+                    <p class="calendar"> <i class="fas fa-calendar-alt"></i>Data 18-09-2020</p>
+                </div>
+
+                <div class="lilbox">
+                    <p><a href="#">Correggere la sintassi </a><br> <i class="fas fa-tag"></i>Categoria: develop </p>
+                    <p class="calendar"> <i class="fas fa-calendar-alt"></i>Data 16-09-2020</p>
+                </div>
+
+                <div class="lilbox">
+                    <p><a href="#">Meno kb nella pagina </a> <br> <i class="fas fa-tag"></i> Categoria: ottimizzazione </p>
+                    <p class="calendar"> <i class="fas fa-calendar-alt"></i>Data 30-09-2020</p>
+                </div>
             </aside>
            
         </main>
