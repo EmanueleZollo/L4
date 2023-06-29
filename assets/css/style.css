@@ -1,0 +1,92 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 2px;
+
+}
+div {
+    background: url(./img/sfondo.png) ;
+}
+
+p{
+    margin: 10px;
+    padding: 15px;
+    line-height: 1.5rem;
+}
+
+a{
+    color: #FB1CD5;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: 500;
+    padding: 20px 15px;
+    line-height: 3rem;
+}
+
+span {
+    color: #AA2072;
+}
+
+/* HEADER */
+header {
+    width: 450px;
+    min-height: 200px;
+    margin: 20px auto ;
+    padding: 2px;
+    background-color: #006A88;
+    color: white;
+    box-shadow: 1px 1px 2px #006A88;
+}
+
+header p, ul {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+
+/* MAIN */
+main{
+    width: 450px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 2px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 2px black;
+}
+
+#grey {
+    color: gray;
+}
+
+
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+    width: 450px;
+    min-height: 200px;
+    margin: 20px auto ;
+    padding: 2px;
+    background-color: #005566;
+    color: white;
+    box-shadow: 1px 1px 2px #005566;
+    text-align: center;
+}
+
